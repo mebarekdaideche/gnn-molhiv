@@ -1,0 +1,14 @@
+# configs/gine_config.yaml
+# Hyperparamètres pour GINE — OGB-MolHIV
+# Usage : python -m src.train --config configs/gine_config.yaml
+
+model: gine
+num_layers: 5
+emb_dim: 300
+dropout: 0.5
+epochs: 100
+lr: 0.001
+weight_decay: 0.0
+batch_size: 32
+seed: 42
+data_root: dataset

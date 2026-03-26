@@ -1,0 +1,21 @@
+# Projet : gnn-molhiv — Python 3.10
+#
+# Installation :
+#   pip install torch==2.1.0 --index-url https://download.pytorch.org/whl/cpu
+#   pip install torch_geometric
+#   pip install -r requirements.txt
+
+torch==2.1.0
+torch_geometric==2.4.0
+ogb==1.3.6
+
+numpy==1.24.3
+pandas==2.0.3
+matplotlib==3.7.2
+scikit-learn==1.3.0
+
+PyYAML==6.0.1
+notebook==7.0.6
+
+# Optionnel — visualisation des molécules
+# conda install -c conda-forge rdkit

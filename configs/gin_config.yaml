@@ -1,0 +1,14 @@
+# configs/gin_config.yaml
+# Hyperparamètres pour GIN — OGB-MolHIV
+# Usage : python -m src.train --config configs/gin_config.yaml
+
+model: gin
+num_layers: 5
+emb_dim: 300
+dropout: 0.5
+epochs: 100
+lr: 0.001
+weight_decay: 0.0
+batch_size: 32
+seed: 42
+data_root: dataset

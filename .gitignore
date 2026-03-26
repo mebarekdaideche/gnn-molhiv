@@ -1,0 +1,40 @@
+# .gitignore — gnn-molhiv
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.conda/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Données OGB (téléchargées automatiquement, trop lourdes pour git)
+dataset/
+
+# Modèles sauvegardés (peuvent dépasser 100 Mo)
+saved_models/*.pt
+saved_models/*.pth
+saved_models/*.ckpt
+
+# Résultats bruts des runs (on ne garde que le summary et les images)
+results/runs/
+results/*.log
+results/*.json
+
+# Logs
+logs/
+*.log
+wandb/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
